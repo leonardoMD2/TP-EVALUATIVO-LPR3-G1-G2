@@ -89,7 +89,7 @@ def listar_productos(db: sqlite3.Connection = Depends(get_db)):
 
 | Método | Ruta | Descripción |
 |---|---|---|
-| `GET` | `/productos` | Listar todos. **Debe soportar filtros por query params** (ej. `?nombre=algo&precio_min=100`) |
+| `GET` | `/productos` | Listar todos. |
 | `GET` | `/productos/{id}` | Obtener uno por ID (404 si no existe) |
 | `POST` | `/productos` | Crear (validado con Pydantic, 422 si falla) |
 | `PUT` | `/productos/{id}` | Actualizar |
