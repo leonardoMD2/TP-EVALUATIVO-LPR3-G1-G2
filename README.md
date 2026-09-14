@@ -1,4 +1,4 @@
-# TP-EVALUATIVO-LPR3-G1
+# TP-EVALUATIVO-LPR3-G1-G2
 
 ## Laboratorio de Programación —  App Full Stack (FastAPI + SQLite + JavaScript Vanilla)
 
